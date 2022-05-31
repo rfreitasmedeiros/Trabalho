@@ -1,0 +1,16 @@
+body {line-height: 30px;
+    letter-spacing: 3px;
+    word-spacing:2px;
+    text-indent: 30px;}
+
+body {margin-left: auto;
+    margin-right: auto;
+    width: 940px}
+
+body {width:100%;}
+     
+body {color: white;}
+
+#exbackground {background-color: black; width: 940px; height: auto;}
+
+#inbackground {background-color: black; width: 940px; height: auto;}

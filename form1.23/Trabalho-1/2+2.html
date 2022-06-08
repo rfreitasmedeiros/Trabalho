@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <form name="meuForm" method="post" id="formulario">
+    <form action="send.php" name="meuForm" method="post" id="formulario">
         <div class="box">
             
             <h1>Um video para estressar:</h1>
@@ -34,12 +34,14 @@
             </label>
 
             <label>
-                <span>Assunto</span>
-                <input type="text" class="input_text" name="assunto" id="subject" />
+                <span>quanto é 2+2</span>
+                Quanto é 2+2:
+				<input type="checkbox" name="2+2" value="4" id="subject"> 4
+				<input type="checkbox" name="2+2" value="5" id="subject"> 5<br>
             </label>
 
             <label>
-                <span>Mensagem</span>
+                <span>diga algo que pode melhorar o site</span>
                 <textarea class="message" name="feedback" id="feedback"></textarea>
                 <input type="button" class="button" value="Enviar" />
             </label>

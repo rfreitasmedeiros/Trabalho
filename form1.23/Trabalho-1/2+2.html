@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>formulario Básico</title>
+    <link href="2+2.css" rel="stylesheet">
+</head>
+
+<body>
+    <form name="meuForm" method="post" id="formulario">
+        <div class="box">
+            
+            <h1>Um video para estressar:</h1>
+
+            <center>
+                <iframe width="400" height="315" src="https://www.youtube.com/embed/5mGuCdlCcNM"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </center>
+
+            <h1>Formulário:</h1>
+
+            <label>
+                <span>Nome Completo</span>
+                <input type="text" class="input_text" name="nome" id="name" />
+
+            </label>
+
+            <label>
+                <span>Email</span>
+                <input type="text" class="input_text" name="email" id="email" />
+            </label>
+
+            <label>
+                <span>Assunto</span>
+                <input type="text" class="input_text" name="assunto" id="subject" />
+            </label>
+
+            <label>
+                <span>Mensagem</span>
+                <textarea class="message" name="feedback" id="feedback"></textarea>
+                <input type="button" class="button" value="Enviar" />
+            </label>
+
+            <div id="logos">
+                <a href="https://www.tiktok.com/pt-BR/"><img class="im" src="img/tiktok.png" alt="Logo do Tiktok"></a>
+                <a href="https://twitter.com/home"><img class="im" src="img/twitter.png" alt="Logo do Twitter"></a>
+                <a href="https://pt-br.facebook.com"><img class="im" src="img/facebook.png" alt="Logo do Facebook"></a>
+                <a href="https://www.instagram.com"><img class="im" src="img/instagram.png" alt="Logo do Instagran"></a>
+            </div>
+
+        </div>
+    </form>
+</body>
+
+</html>

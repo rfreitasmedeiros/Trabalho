@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 14-Jun-2022 às 18:35
+-- Tempo de geração: 14-Jun-2022 às 19:12
 -- Versão do servidor: 10.4.11-MariaDB
 -- versão do PHP: 7.4.2
 
@@ -30,7 +30,7 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `formulario` (
   `Nome` varchar(255) DEFAULT NULL,
-  `Data` date DEFAULT NULL,
+  `Nascimento` date DEFAULT NULL,
   `Email` varchar(255) DEFAULT NULL,
   `Senha` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

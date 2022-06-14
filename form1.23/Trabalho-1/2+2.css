@@ -63,20 +63,6 @@ div.box .message{
     height:150px;
 }
 
-div.box .button{
-    margin:0 0 10px 0;
-    padding:4px 7px;
-    background:#CC0000;
-    border:0px;
-    position: relative;
-    top:10px;
-    left:382px;
-    width:100px;
-    border-bottom: 1px double #660000;
-    border-top: 1px double #660000;
-    border-left:1px double #FF0033;
-    border-right:1px double #FF0033;
-}
 
 #logos {
 	position: center;

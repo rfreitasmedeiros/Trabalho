@@ -1,9 +1,9 @@
 <?php
 
 $nome = $_POST['name'];
+$data = $_POST['date'];
 $email = $_POST['email'];
-$subject = $_POST['subject'];
-$feedback = $_POST['feedback'];
+$senha = $_POST['password'];
 
 echo "deu certo";
 

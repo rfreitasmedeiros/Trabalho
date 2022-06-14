@@ -1,9 +1,9 @@
 <?php
 
-$nome = $_POST['name'];
-$data = $_POST['date'];
+$nome = $_POST['nome'];
+$data = $_POST['data'];
 $email = $_POST['email'];
-$senha = $_POST['password'];
+$senha = $_POST['senha'];
 
 echo "deu certo";
 

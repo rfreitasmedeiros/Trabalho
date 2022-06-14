@@ -10,7 +10,7 @@ $senha = $_POST['senha'];
 $sql = "INSERT INTO cadastro(Nome, Nascimento, Email, Senha) VALUES ('$nome', '$nascimento', '$email', '$senha')";
 
 if(mysqli_query($conexao, $sql))
-    echo "Cadastro feito com sucesso";
+    echo "Cadastro feito com sucesso!";
 
 else
     echo "Erro!".mysqli_connect_error($conexao);

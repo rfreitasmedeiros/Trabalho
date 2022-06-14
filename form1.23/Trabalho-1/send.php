@@ -1,9 +1,9 @@
 <?php
 
 $nome = $_POST['name'];
-$genero = $_POST['email'];
-$estado = $_POST['subject'];
-$qtdIrmaos = $_POST['feedback'];
+$email = $_POST['email'];
+$subject = $_POST['subject'];
+$feedback = $_POST['feedback'];
 
 echo "deu certo";
 

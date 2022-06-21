@@ -63,6 +63,9 @@ div.box .message{
     height:150px;
 }
 
+div.box .input_submit {
+    color: black;
+}
 
 #logos {
 	position: center;

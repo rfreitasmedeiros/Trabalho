@@ -3,8 +3,17 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>formulario Básico</title>
+    <title>Formulario Básico</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <link href="2+2.css" rel="stylesheet">
+    <script type="text/javascript" defer>
+
+        console.log(document.getElementById("nome").value.lenght)
+
+        if (document.getElementById("nome").value.lenght == 0) {
+
+        }
+    </script>
 </head>
 
 <body>
@@ -24,17 +33,17 @@
 
             <label>
                 <span>Nome Completo</span>
-                <input type="text" class="input_text" name="nome" id="nome" required/>
+                <input type="text" class="input_text" name="nome" id="nome" required />
             </label>
 
             <label>
                 <span>Data de Nascimento</span>
-                <input type="date" class="input_text" name="nascimento" id="nascimento" required/>
+                <input type="date" class="input_text" name="nascimento" id="nascimento" required />
             </label>
 
             <label>
                 <span>Email</span>
-                <input type="email" class="input_text" name="email" id="email" required/>
+                <input type="email" class="input_text" name="email" id="email" required />
             </label>
 
             <label>
@@ -42,9 +51,9 @@
                 <input type="password" class="input_text" name="senha" id="senha" required>
             </label>
             <br>
-           
-            <input type="submit" class="input_submit" name="enviar" >
-            
+
+            <input type="submit" class="input_submit" name="enviar">
+
 
             <div id="logos">
                 <a href="https://www.tiktok.com/pt-BR/"><img class="im" src="img/tiktok.png" alt="Logo do Tiktok"></a>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <title>Formulario Básico</title>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="img/facebook.png">
     <link href="2+2.css" rel="stylesheet">
 </head>
 
@@ -44,7 +44,7 @@
             </label>
             <br>
 
-            <input type="submit" class="input_submit" name="enviar" id="enviar" onclick="validacao()">
+            <input type="submit" class="input_submit" name="enviar" id="enviar" onclick="return validacao()">
 
 
             <div id="logos">
@@ -60,8 +60,7 @@
                 if (document.getElementById("nome").value.lenght == 0) {
                     alert("por favor, preencha o campo nome.")
                     return false
-                }
-                else{
+                } else {
                     document.getElementById("enviar").submit()
                     return true
                 }

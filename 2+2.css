@@ -65,6 +65,7 @@ div.box .message{
 
 div.box .input_submit {
     color: black;
+    position: center;
 }
 
 #logos {

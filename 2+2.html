@@ -30,17 +30,17 @@
 
             <label>
                 <span>Data de Nascimento</span>
-                <input type="date" class="input_text" name="nascimento" id="nascimento" >
+                <input type="date" class="input_text" name="nascimento" id="nascimento">
             </label>
 
             <label>
                 <span>Email</span>
-                <input type="email" class="input_text" name="email" id="email"  >
+                <input type="email" class="input_text" name="email" id="email">
             </label>
 
             <label>
                 <span>Senha</span>
-                <input type="password" class="input_text" name="senha" id="senha" >
+                <input type="password" class="input_text" name="senha" id="senha">
             </label>
             <br>
 
@@ -57,14 +57,14 @@
             <script type="text/javascript">
 
                 function validacao() {
-                if (document.getElementById("nome").value.lenght == 0) {
-                    alert("por favor, preencha o campo nome.")
-                    return false
-                } else {
-                    document.getElementById("enviar").submit()
-                    return true
+                    if (document.getElementById("nome").value.lenght == 0 || document.getElementById("nascimento").value.lenght == 0 || document.getElementById("email").value.lenght == 0 || document.getElementById("senha").value.lenght == 0) {
+                        alert("por favor, preencha os campos.")
+                        return false
+                    } else {
+                        document.getElementById("enviar").submit()
+                        return true
+                    }
                 }
-            }
             </script>
 
         </div>

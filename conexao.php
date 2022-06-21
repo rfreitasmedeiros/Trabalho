@@ -1,7 +1,7 @@
 <?php
 
     $servidor = "localhost";
-    $bdname = "formulario";
+    $bdname = "cadastro";
     $usuario = "root";
     $senha = "";
 

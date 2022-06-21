@@ -25,26 +25,26 @@
 
             <label>
                 <span>Nome Completo</span>
-                <input type="text" class="input_text" name="nome" id="nome" required />
+                <input type="text" class="input_text" name="nome" id="nome">
             </label>
 
             <label>
                 <span>Data de Nascimento</span>
-                <input type="date" class="input_text" name="nascimento" id="nascimento" required />
+                <input type="date" class="input_text" name="nascimento" id="nascimento" >
             </label>
 
             <label>
                 <span>Email</span>
-                <input type="email" class="input_text" name="email" id="email" required />
+                <input type="email" class="input_text" name="email" id="email"  >
             </label>
 
             <label>
                 <span>Senha</span>
-                <input type="password" class="input_text" name="senha" id="senha" required>
+                <input type="password" class="input_text" name="senha" id="senha" >
             </label>
             <br>
 
-            <input type="submit" class="input_submit" name="enviar" id="enviar">
+            <input type="submit" class="input_submit" name="enviar" id="enviar" onclick="validacao()">
 
 
             <div id="logos">
@@ -54,8 +54,9 @@
                 <a href="https://www.instagram.com"><img class="im" src="img/instagram.png" alt="Logo do Instagran"></a>
             </div>
 
-            <script type="text/javascript" defer>
-        
+            <script type="text/javascript">
+
+                function validacao() {
                 if (document.getElementById("nome").value.lenght == 0) {
                     alert("por favor, preencha o campo nome.")
                     return false
@@ -64,6 +65,7 @@
                     document.getElementById("enviar").submit()
                     return true
                 }
+            }
             </script>
 
         </div>

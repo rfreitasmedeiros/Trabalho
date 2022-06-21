@@ -6,14 +6,6 @@
     <title>Formulario Básico</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <link href="2+2.css" rel="stylesheet">
-    <script type="text/javascript" defer>
-
-        console.log(document.getElementById("nome").value.lenght)
-
-        if (document.getElementById("nome").value.lenght == 0) {
-
-        }
-    </script>
 </head>
 
 <body>
@@ -52,7 +44,7 @@
             </label>
             <br>
 
-            <input type="submit" class="input_submit" name="enviar">
+            <input type="submit" class="input_submit" name="enviar" id="enviar">
 
 
             <div id="logos">
@@ -61,6 +53,18 @@
                 <a href="https://pt-br.facebook.com"><img class="im" src="img/facebook.png" alt="Logo do Facebook"></a>
                 <a href="https://www.instagram.com"><img class="im" src="img/instagram.png" alt="Logo do Instagran"></a>
             </div>
+
+            <script type="text/javascript" defer>
+        
+                if (document.getElementById("nome").value.lenght == 0) {
+                    alert("por favor, preencha o campo nome.")
+                    return false
+                }
+                else{
+                    document.getElementById("enviar").submit()
+                    return true
+                }
+            </script>
 
         </div>
     </form>

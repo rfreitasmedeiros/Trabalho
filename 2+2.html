@@ -53,19 +53,18 @@
                 <a href="https://pt-br.facebook.com"><img class="im" src="img/facebook.png" alt="Logo do Facebook"></a>
                 <a href="https://www.instagram.com"><img class="im" src="img/instagram.png" alt="Logo do Instagran"></a>
             </div>
+
+            <footer>
+                <p id="oi">Copyright © 2022</p>
+            </footer>
         </div>
     </form>
 
     <script type="text/javascript">
 
         function validacao() {
-            if (document.getElementById("nome").value.lenght == "" || document.getElementById("nascimento").value.lenght == "" || document.getElementById("email").value.lenght == "" || document.getElementById("senha").value.lenght == "") {
-                alert("por favor, preencha os campos.")
-                return false
-            } else {
-                document.getElementById("enviar").submit()
-                return true
-            }
+            var dados = document.getElementsByClassName('input_text')
+
         }
     </script>
 

@@ -55,6 +55,7 @@
             </div>
 
             <footer>
+                <br>
                 <p id="oi">Copyright © 2022</p>
             </footer>
         </div>
@@ -64,6 +65,20 @@
 
         function validacao() {
             var dados = document.getElementsByClassName('input_text')
+            var tamanho = dados.length
+            var temAlguemVazio = true;
+            for(var i=0; i < tamanho; i++) {
+                if(!(dados[i].value=='')) {
+                    temAlguemVazio = false
+                    break
+                }
+            }
+            if (temAlguemVazio){
+                alert('')
+                return false
+            } else {
+                return true
+            }
 
         }
     </script>

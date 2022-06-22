@@ -67,13 +67,14 @@ div.box .input_submit {
     color: black;
     position: center;
     text-align: center;
+    left: 32px;
 }
 
 #logos {
 	position: center;
 	width: 420px;
 	text-align: center;
-	left: 29px;
+	left: 32px;
 	top: 27px;}
     
     .im {
@@ -81,3 +82,11 @@ div.box .input_submit {
         text-align: center;
         width: 9%;
         height: 9%;}
+
+#oi {
+     position: relative;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    top: 32px;
+        }

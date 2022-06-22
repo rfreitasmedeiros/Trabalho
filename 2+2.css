@@ -71,7 +71,7 @@ div.box .input_submit {
 }
 
 #logos {
-	position: center;
+	position: relative;
 	width: 420px;
 	text-align: center;
 	left: 32px;
@@ -88,5 +88,4 @@ div.box .input_submit {
     color: #ffffff;
     text-align: center;
     font-size: 15px;
-    top: 32px;
         }

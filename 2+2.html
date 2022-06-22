@@ -53,22 +53,22 @@
                 <a href="https://pt-br.facebook.com"><img class="im" src="img/facebook.png" alt="Logo do Facebook"></a>
                 <a href="https://www.instagram.com"><img class="im" src="img/instagram.png" alt="Logo do Instagran"></a>
             </div>
-
-            <script type="text/javascript">
-
-                function validacao() {
-                    if (document.getElementById("nome").value.lenght == 0 || document.getElementById("nascimento").value.lenght == 0 || document.getElementById("email").value.lenght == 0 || document.getElementById("senha").value.lenght == 0) {
-                        alert("por favor, preencha os campos.")
-                        return false
-                    } else {
-                        document.getElementById("enviar").submit()
-                        return true
-                    }
-                }
-            </script>
-
         </div>
     </form>
+
+    <script type="text/javascript">
+
+        function validacao() {
+            if (document.getElementById("nome").value.lenght == 0 || document.getElementById("nascimento").value.lenght == 0 || document.getElementById("email").value.lenght == 0 || document.getElementById("senha").value.lenght == 0) {
+                alert("por favor, preencha os campos.")
+                return false
+            } else {
+                document.getElementById("enviar").submit()
+                return true
+            }
+        }
+    </script>
+    
 </body>
 
 </html>

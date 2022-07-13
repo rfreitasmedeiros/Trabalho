@@ -1,12 +1,18 @@
 *{ margin:0; padding:0;}
 
-body{ width: 100%;font:100% normal Arial, Helvetica, sans-serif; background-image: url(./img/fnv.jpg); line-height: 1;}
+body{ width:100% ;font:100% normal Arial, Helvetica, sans-serif; background-image: url(./img/fnv.jpg); line-height: 1;}
 
 form,input,select,textarea{margin:0; padding:0; color:#ffffff;}
 
+@media (max-width: 640px) {
+    body {
+        background-image: url(./img/matrix.png);
+    }
+}
+
 div.box {
     margin:0 auto;
-    width:500px;
+    width:400px;
     background:#222222;
     position:relative;
     top:50px;
@@ -70,11 +76,17 @@ div.box .input_submit {
     left: 45%;
 }
 
+#link {
+    position: relative;
+    text-align: center;
+    top: 20px;
+}
+
 #logos {
 	position: relative;
 	width: 420px;
 	text-align: center;
-	left: 32px;
+    right: 8px;
 	top: 27px;}
     
     .im {

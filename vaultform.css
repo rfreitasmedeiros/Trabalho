@@ -16,9 +16,15 @@ form, input, select, textarea {
     color: #ffffff;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 1024px) /*tablet*/ {
     body {
         background-image: url(./img/matrix.png);
+    }
+}
+
+@media (max-width: 768px) /*celular*/ {
+    body {
+        background-image: url(./img/rdr.jpg);
     }
 }
 

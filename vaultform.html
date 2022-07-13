@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>Formulario Básico</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="img/vaulttec.png">
     <link href="vaultform.css" rel="stylesheet">
 </head>
@@ -73,13 +73,13 @@
             var dados = document.getElementsByClassName('input_text')
             var tamanho = dados.length
             var temAlguemVazio = true;
-            for(var i=0; i < tamanho; i++) {
-                if(!(dados[i].value=='')) {
+            for (var i = 0; i < tamanho; i++) {
+                if (!(dados[i].value == '')) {
                     temAlguemVazio = false
                     break
                 }
             }
-            if (temAlguemVazio){
+            if (temAlguemVazio) {
                 alert('Escreva no formulario')
                 return false
             } else {
